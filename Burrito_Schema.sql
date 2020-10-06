@@ -13,7 +13,8 @@ Neighborhood VARCHAR,
 Address VARCHAR,
 Yelp FLOAT,
 Google FLOAT,
-Cost FLOAT
+Cost FLOAT,
+key INT
 );
 
 SELECT * FROM SD_Burrito_Data
