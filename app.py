@@ -44,7 +44,7 @@ def burrito_search():
 
 @app.route('/burrito_table')
 def burrito_table():
-    return render_template('kmar_table.html')  
+    return render_template('data_table.html')  
 
 if __name__ == '__main__':
     app.run(debug=True)
