@@ -20,6 +20,14 @@ db.Model = automap_base(db.Model)
 @app.route('/')
 def home():
     return render_template('index.html')
+
+@app.route('/topfivescores')
+def topfive():
+    return render_template('topfive_scores.html')
+
+@app.route('/topfivecosts')
+def topfiveburritotype():
+    return render_template('topfive_costs.html')
     
 @app.route('/burrito_data')
 def burrito_search():
